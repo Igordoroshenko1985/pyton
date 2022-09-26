@@ -1,0 +1,17 @@
+
+x1 = int(input('введите координаты x1 '))
+
+y1 = int(input('введите координаты y1 ')) 
+
+x2 = int(input('введите координаты x2 '))
+
+y2 = int(input('введите координаты y2 '))
+not_c=0
+import math
+c = math.sqrt(pow(x1-x2,2)+pow(y1-y2,2))
+#c = round(math.sqrt((x1-x2)**2+(y1 - y2)**2),3)
+print('точка а({x1},{y1})')
+print('точка b({x2},{y2})')
+print ('$ расстояние между ними = {c} ')
+print (type (c))
+print (type (x1))
